@@ -57,27 +57,22 @@ static PhotoSet *samplePhotoSet = nil;
 + (PhotoSet *) samplePhotoSet {
     @synchronized(self) {
         if (samplePhotoSet == nil) {
-            Photo *mathNinja = [[[Photo alloc] initWithCaption:@"Math Ninja" 
-                                                      urlLarge:@"http://www.raywenderlich.com/downloads/math_ninja_large.png" 
-                                                      urlSmall:@"bundle://math_ninja_small.png" 
-                                                      urlThumb:@"bundle://math_ninja_thumb.png" 
+            Photo *mathNinja = [[[Photo alloc] initWithCaption:@"Meeting Room" 
+                                                      urlLarge:@"bundle://assets/hotel/images/hotel_0.jpg"  
+                                                      urlSmall:@"bundle://assets/hotel/thumbs/hotel_0.jpg" 
+                                                      urlThumb:@"bundle://assets/hotel/thumbs/hotel_0.jpg" 
                                                           size:CGSizeMake(1024, 768)] autorelease];
-            Photo *instantPoetry = [[[Photo alloc] initWithCaption:@"Instant Poetry" 
-                                                          urlLarge:@"http://www.raywenderlich.com/downloads/instant_poetry_large.png" 
-                                                          urlSmall:@"bundle://instant_poetry_small.png" 
-                                                          urlThumb:@"bundle://instant_poetry_thumb.png" 
+            Photo *instantPoetry = [[[Photo alloc] initWithCaption:@"Dinning Room" 
+                                                          urlLarge:@"bundle://assets/hotel/images/hotel_1.jpg"  
+                                                          urlSmall:@"bundle://assets/hotel/thumbs/hotel_1.jpg" 
+                                                          urlThumb:@"bundle://assets/hotel/thumbs/hotel_1.jpg" 
                                                               size:CGSizeMake(1024, 748)] autorelease];
-            Photo *rpgCalc = [[[Photo alloc] initWithCaption:@"RPG Calc" 
-                                                    urlLarge:@"http://www.raywenderlich.com/downloads/rpg_calc_large.png" 
-                                                    urlSmall:@"bundle://rpg_calc_small.png" 
-                                                    urlThumb:@"bundle://rpg_calc_thumb.png" 
-                                                        size:CGSizeMake(640, 920)] autorelease];
-            Photo *levelMeUp = [[[Photo alloc] initWithCaption:@"Level Me Up" 
-                                                      urlLarge:@"http://www.raywenderlich.com/downloads/level_me_up_large.png" 
-                                                      urlSmall:@"bundle://level_me_up_small.png" 
-                                                      urlThumb:@"bundle://level_me_up_thumb.png" 
+            Photo *levelMeUp = [[[Photo alloc] initWithCaption:@"Vote Room" 
+                                                      urlLarge:@"bundle://assets/hotel/images/hotel_2.jpg"  
+                                                      urlSmall:@"bundle://assets/hotel/thumbs/hotel_2.jpg" 
+                                                      urlThumb:@"bundle://assets/hotel/thumbs/hotel_2.jpg" 
                                                           size:CGSizeMake(1024, 768)] autorelease];
-            NSArray *photos = [NSArray arrayWithObjects:mathNinja, instantPoetry, rpgCalc, levelMeUp, nil];
+            NSArray *photos = [NSArray arrayWithObjects:mathNinja, instantPoetry, levelMeUp, nil];
             samplePhotoSet = [[self alloc] initWithTitle:@"My Apps" photos:photos];
         }
     }
