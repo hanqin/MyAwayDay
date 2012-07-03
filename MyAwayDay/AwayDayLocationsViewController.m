@@ -55,8 +55,8 @@
     
     CLLocationCoordinate2D coordinate;
     coordinate.latitude = 30.62;
-    coordinate.longitude = 104.0103;
-    mapView.region = MKCoordinateRegionMakeWithDistance(coordinate, 150000, 150000);
+    coordinate.longitude = 104.0303;
+    mapView.region = MKCoordinateRegionMakeWithDistance(coordinate, 150000, 200000);
     
     for (NSInteger index = 0; index < len; index++) {
         MapAnnotation* annotation = [[MapAnnotation alloc] initWithCoordinate:points[index]];
