@@ -128,14 +128,8 @@
 				49971A2F15A2DA0200AF6496 /* AwayDayAppDelegate.m */,
 				49971A3115A2DA0200AF6496 /* AwayDayFirstViewController.h */,
 				49971A3215A2DA0200AF6496 /* AwayDayFirstViewController.m */,
-				49971A3415A2DA0200AF6496 /* first.png */,
-				49971A3615A2DA0200AF6496 /* first@2x.png */,
 				49971A3815A2DA0200AF6496 /* AwayDaySecondViewController.h */,
 				49971A3915A2DA0200AF6496 /* AwayDaySecondViewController.m */,
-				49971A3B15A2DA0200AF6496 /* second.png */,
-				49971A3D15A2DA0200AF6496 /* second@2x.png */,
-				49971A3F15A2DA0200AF6496 /* AwayDayFirstViewController.xib */,
-				49971A4215A2DA0200AF6496 /* AwayDaySecondViewController.xib */,
 				49971A2615A2DA0200AF6496 /* Supporting Files */,
 			);
 			path = MyAwayDay;
@@ -144,6 +138,9 @@
 		49971A2615A2DA0200AF6496 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				49971A3F15A2DA0200AF6496 /* AwayDayFirstViewController.xib */,
+				49971A4215A2DA0200AF6496 /* AwayDaySecondViewController.xib */,
+				49971A6215A2DBE000AF6496 /* Icons */,
 				49971A2715A2DA0200AF6496 /* MyAwayDay-Info.plist */,
 				49971A2815A2DA0200AF6496 /* InfoPlist.strings */,
 				49971A2B15A2DA0200AF6496 /* main.m */,
@@ -169,6 +166,17 @@
 				49971A5415A2DA0200AF6496 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49971A6215A2DBE000AF6496 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				49971A3415A2DA0200AF6496 /* first.png */,
+				49971A3615A2DA0200AF6496 /* first@2x.png */,
+				49971A3B15A2DA0200AF6496 /* second.png */,
+				49971A3D15A2DA0200AF6496 /* second@2x.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
