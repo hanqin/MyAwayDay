@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4921A4DE15A2DEAF0006F75F /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 4921A4DD15A2DEAF0006F75F /* assets */; };
 		49971A2015A2DA0200AF6496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A1F15A2DA0200AF6496 /* UIKit.framework */; };
 		49971A2215A2DA0200AF6496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A2115A2DA0200AF6496 /* Foundation.framework */; };
 		49971A2415A2DA0200AF6496 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A2315A2DA0200AF6496 /* CoreGraphics.framework */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4921A4DD15A2DEAF0006F75F /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		49971A1B15A2DA0100AF6496 /* MyAwayDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAwayDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49971A1F15A2DA0200AF6496 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		49971A2115A2DA0200AF6496 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -49,11 +51,11 @@
 		49971A2D15A2DA0200AF6496 /* MyAwayDay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyAwayDay-Prefix.pch"; sourceTree = "<group>"; };
 		49971A2E15A2DA0200AF6496 /* AwayDayAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwayDayAppDelegate.h; sourceTree = "<group>"; };
 		49971A2F15A2DA0200AF6496 /* AwayDayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwayDayAppDelegate.m; sourceTree = "<group>"; };
-		49971A3115A2DA0200AF6496 /* AwayDayAgendaViewController.h */ = {isa = PBXFileReference; path = AwayDayAgendaViewController.h; sourceTree = "<group>"; };
+		49971A3115A2DA0200AF6496 /* AwayDayAgendaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwayDayAgendaViewController.h; sourceTree = "<group>"; };
 		49971A3215A2DA0200AF6496 /* AwayDayAgendaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwayDayAgendaViewController.m; sourceTree = "<group>"; };
 		49971A3415A2DA0200AF6496 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		49971A3615A2DA0200AF6496 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		49971A3815A2DA0200AF6496 /* AwayDayLocationsViewController.h */ = {isa = PBXFileReference; path = AwayDayLocationsViewController.h; sourceTree = "<group>"; };
+		49971A3815A2DA0200AF6496 /* AwayDayLocationsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwayDayLocationsViewController.h; sourceTree = "<group>"; };
 		49971A3915A2DA0200AF6496 /* AwayDayLocationsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwayDayLocationsViewController.m; sourceTree = "<group>"; };
 		49971A3B15A2DA0200AF6496 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		49971A3D15A2DA0200AF6496 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		49971A2615A2DA0200AF6496 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4921A4DD15A2DEAF0006F75F /* assets */,
 				49971A3F15A2DA0200AF6496 /* AwayDayAgendaViewController.xib */,
 				49971A4215A2DA0200AF6496 /* AwayDayLocationsViewController.xib */,
 				49971A6215A2DBE000AF6496 /* Icons */,
@@ -257,6 +260,7 @@
 				49971A3E15A2DA0200AF6496 /* second@2x.png in Resources */,
 				49971A4115A2DA0200AF6496 /* AwayDayAgendaViewController.xib in Resources */,
 				49971A4415A2DA0200AF6496 /* AwayDayLocationsViewController.xib in Resources */,
+				4921A4DE15A2DEAF0006F75F /* assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
