@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
 @interface AwayDayLocationsViewController : UIViewController
+{
+    MKMapView *mapView;
+}
 
+@property (nonatomic, retain) IBOutlet MKMapView *mapView;
 @end

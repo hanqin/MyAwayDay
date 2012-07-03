@@ -29,6 +29,8 @@
 		49971A4E15A2DA0200AF6496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A2115A2DA0200AF6496 /* Foundation.framework */; };
 		49971A5615A2DA0200AF6496 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49971A5415A2DA0200AF6496 /* InfoPlist.strings */; };
 		49971A5915A2DA0200AF6496 /* MyAwayDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49971A5815A2DA0200AF6496 /* MyAwayDayTests.m */; };
+		49A7E10D15A30DC500B69197 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A7E10C15A30DC500B69197 /* MapKit.framework */; };
+		49A7E11115A3136000B69197 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A7E11015A3136000B69197 /* MapAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,9 @@
 		49971A5515A2DA0200AF6496 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49971A5715A2DA0200AF6496 /* MyAwayDayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAwayDayTests.h; sourceTree = "<group>"; };
 		49971A5815A2DA0200AF6496 /* MyAwayDayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAwayDayTests.m; sourceTree = "<group>"; };
+		49A7E10C15A30DC500B69197 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		49A7E10F15A3136000B69197 /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		49A7E11015A3136000B69197 /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A7E10D15A30DC500B69197 /* MapKit.framework in Frameworks */,
 				49971A2015A2DA0200AF6496 /* UIKit.framework in Frameworks */,
 				49971A2215A2DA0200AF6496 /* Foundation.framework in Frameworks */,
 				49971A2415A2DA0200AF6496 /* CoreGraphics.framework in Frameworks */,
@@ -119,6 +125,7 @@
 		49971A1E15A2DA0100AF6496 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49A7E10C15A30DC500B69197 /* MapKit.framework */,
 				49971A1F15A2DA0200AF6496 /* UIKit.framework */,
 				49971A2115A2DA0200AF6496 /* Foundation.framework */,
 				49971A2315A2DA0200AF6496 /* CoreGraphics.framework */,
@@ -136,6 +143,8 @@
 				49971A3215A2DA0200AF6496 /* AwayDayAgendaViewController.m */,
 				49971A3815A2DA0200AF6496 /* AwayDayLocationsViewController.h */,
 				49971A3915A2DA0200AF6496 /* AwayDayLocationsViewController.m */,
+				49A7E10F15A3136000B69197 /* MapAnnotation.h */,
+				49A7E11015A3136000B69197 /* MapAnnotation.m */,
 				49971A2615A2DA0200AF6496 /* Supporting Files */,
 			);
 			path = MyAwayDay;
@@ -307,6 +316,7 @@
 				49971A3015A2DA0200AF6496 /* AwayDayAppDelegate.m in Sources */,
 				49971A3315A2DA0200AF6496 /* AwayDayAgendaViewController.m in Sources */,
 				49971A3A15A2DA0200AF6496 /* AwayDayLocationsViewController.m in Sources */,
+				49A7E11115A3136000B69197 /* MapAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
