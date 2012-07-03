@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4921A4DE15A2DEAF0006F75F /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 4921A4DD15A2DEAF0006F75F /* assets */; };
+		4921A4E115A300A90006F75F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4921A4DF15A300A90006F75F /* Icon.png */; };
+		4921A4E215A300A90006F75F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4921A4E015A300A90006F75F /* Icon@2x.png */; };
 		49971A2015A2DA0200AF6496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A1F15A2DA0200AF6496 /* UIKit.framework */; };
 		49971A2215A2DA0200AF6496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A2115A2DA0200AF6496 /* Foundation.framework */; };
 		49971A2415A2DA0200AF6496 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A2315A2DA0200AF6496 /* CoreGraphics.framework */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		4921A4DD15A2DEAF0006F75F /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		4921A4DF15A300A90006F75F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4921A4E015A300A90006F75F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		49971A1B15A2DA0100AF6496 /* MyAwayDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAwayDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49971A1F15A2DA0200AF6496 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		49971A2115A2DA0200AF6496 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -174,6 +178,8 @@
 		49971A6215A2DBE000AF6496 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				4921A4DF15A300A90006F75F /* Icon.png */,
+				4921A4E015A300A90006F75F /* Icon@2x.png */,
 				49971A3415A2DA0200AF6496 /* first.png */,
 				49971A3615A2DA0200AF6496 /* first@2x.png */,
 				49971A3B15A2DA0200AF6496 /* second.png */,
@@ -261,6 +267,8 @@
 				49971A4115A2DA0200AF6496 /* AwayDayAgendaViewController.xib in Resources */,
 				49971A4415A2DA0200AF6496 /* AwayDayLocationsViewController.xib in Resources */,
 				4921A4DE15A2DEAF0006F75F /* assets in Resources */,
+				4921A4E115A300A90006F75F /* Icon.png in Resources */,
+				4921A4E215A300A90006F75F /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

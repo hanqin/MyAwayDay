@@ -29,7 +29,6 @@
 {
     NSString* urlString = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"assets/agenda"];
 
-    
     NSURL *url = [NSURL fileURLWithPath:urlString];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [webView loadRequest:request];
@@ -39,7 +38,8 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
+    [webView release];
+    self.webView = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
