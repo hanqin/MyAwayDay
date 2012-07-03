@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49971A2015A2DA0200AF6496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A1F15A2DA0200AF6496 /* UIKit.framework */; };
+		49971A2215A2DA0200AF6496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A2115A2DA0200AF6496 /* Foundation.framework */; };
+		49971A2415A2DA0200AF6496 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A2315A2DA0200AF6496 /* CoreGraphics.framework */; };
+		49971A2A15A2DA0200AF6496 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49971A2815A2DA0200AF6496 /* InfoPlist.strings */; };
+		49971A2C15A2DA0200AF6496 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49971A2B15A2DA0200AF6496 /* main.m */; };
+		49971A3015A2DA0200AF6496 /* AwayDayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49971A2F15A2DA0200AF6496 /* AwayDayAppDelegate.m */; };
+		49971A3315A2DA0200AF6496 /* AwayDayFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49971A3215A2DA0200AF6496 /* AwayDayFirstViewController.m */; };
+		49971A3515A2DA0200AF6496 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 49971A3415A2DA0200AF6496 /* first.png */; };
+		49971A3715A2DA0200AF6496 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49971A3615A2DA0200AF6496 /* first@2x.png */; };
+		49971A3A15A2DA0200AF6496 /* AwayDaySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49971A3915A2DA0200AF6496 /* AwayDaySecondViewController.m */; };
+		49971A3C15A2DA0200AF6496 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 49971A3B15A2DA0200AF6496 /* second.png */; };
+		49971A3E15A2DA0200AF6496 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49971A3D15A2DA0200AF6496 /* second@2x.png */; };
+		49971A4115A2DA0200AF6496 /* AwayDayFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49971A3F15A2DA0200AF6496 /* AwayDayFirstViewController.xib */; };
+		49971A4415A2DA0200AF6496 /* AwayDaySecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49971A4215A2DA0200AF6496 /* AwayDaySecondViewController.xib */; };
+		49971A4C15A2DA0200AF6496 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A4B15A2DA0200AF6496 /* SenTestingKit.framework */; };
+		49971A4D15A2DA0200AF6496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A1F15A2DA0200AF6496 /* UIKit.framework */; };
+		49971A4E15A2DA0200AF6496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A2115A2DA0200AF6496 /* Foundation.framework */; };
+		49971A5615A2DA0200AF6496 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49971A5415A2DA0200AF6496 /* InfoPlist.strings */; };
+		49971A5915A2DA0200AF6496 /* MyAwayDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49971A5815A2DA0200AF6496 /* MyAwayDayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49971A4F15A2DA0200AF6496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49971A1215A2DA0100AF6496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49971A1A15A2DA0100AF6496;
+			remoteInfo = MyAwayDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49971A1B15A2DA0100AF6496 /* MyAwayDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAwayDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49971A1F15A2DA0200AF6496 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49971A2115A2DA0200AF6496 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49971A2315A2DA0200AF6496 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49971A2715A2DA0200AF6496 /* MyAwayDay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyAwayDay-Info.plist"; sourceTree = "<group>"; };
+		49971A2915A2DA0200AF6496 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49971A2B15A2DA0200AF6496 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49971A2D15A2DA0200AF6496 /* MyAwayDay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyAwayDay-Prefix.pch"; sourceTree = "<group>"; };
+		49971A2E15A2DA0200AF6496 /* AwayDayAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwayDayAppDelegate.h; sourceTree = "<group>"; };
+		49971A2F15A2DA0200AF6496 /* AwayDayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwayDayAppDelegate.m; sourceTree = "<group>"; };
+		49971A3115A2DA0200AF6496 /* AwayDayFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwayDayFirstViewController.h; sourceTree = "<group>"; };
+		49971A3215A2DA0200AF6496 /* AwayDayFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwayDayFirstViewController.m; sourceTree = "<group>"; };
+		49971A3415A2DA0200AF6496 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		49971A3615A2DA0200AF6496 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		49971A3815A2DA0200AF6496 /* AwayDaySecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwayDaySecondViewController.h; sourceTree = "<group>"; };
+		49971A3915A2DA0200AF6496 /* AwayDaySecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwayDaySecondViewController.m; sourceTree = "<group>"; };
+		49971A3B15A2DA0200AF6496 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		49971A3D15A2DA0200AF6496 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		49971A4015A2DA0200AF6496 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AwayDayFirstViewController.xib; sourceTree = "<group>"; };
+		49971A4315A2DA0200AF6496 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AwayDaySecondViewController.xib; sourceTree = "<group>"; };
+		49971A4A15A2DA0200AF6496 /* MyAwayDayTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAwayDayTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49971A4B15A2DA0200AF6496 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		49971A5315A2DA0200AF6496 /* MyAwayDayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyAwayDayTests-Info.plist"; sourceTree = "<group>"; };
+		49971A5515A2DA0200AF6496 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49971A5715A2DA0200AF6496 /* MyAwayDayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAwayDayTests.h; sourceTree = "<group>"; };
+		49971A5815A2DA0200AF6496 /* MyAwayDayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAwayDayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49971A1815A2DA0100AF6496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49971A2015A2DA0200AF6496 /* UIKit.framework in Frameworks */,
+				49971A2215A2DA0200AF6496 /* Foundation.framework in Frameworks */,
+				49971A2415A2DA0200AF6496 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49971A4615A2DA0200AF6496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49971A4C15A2DA0200AF6496 /* SenTestingKit.framework in Frameworks */,
+				49971A4D15A2DA0200AF6496 /* UIKit.framework in Frameworks */,
+				49971A4E15A2DA0200AF6496 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49971A1015A2DA0100AF6496 = {
+			isa = PBXGroup;
+			children = (
+				49971A2515A2DA0200AF6496 /* MyAwayDay */,
+				49971A5115A2DA0200AF6496 /* MyAwayDayTests */,
+				49971A1E15A2DA0100AF6496 /* Frameworks */,
+				49971A1C15A2DA0100AF6496 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49971A1C15A2DA0100AF6496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49971A1B15A2DA0100AF6496 /* MyAwayDay.app */,
+				49971A4A15A2DA0200AF6496 /* MyAwayDayTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49971A1E15A2DA0100AF6496 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49971A1F15A2DA0200AF6496 /* UIKit.framework */,
+				49971A2115A2DA0200AF6496 /* Foundation.framework */,
+				49971A2315A2DA0200AF6496 /* CoreGraphics.framework */,
+				49971A4B15A2DA0200AF6496 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49971A2515A2DA0200AF6496 /* MyAwayDay */ = {
+			isa = PBXGroup;
+			children = (
+				49971A2E15A2DA0200AF6496 /* AwayDayAppDelegate.h */,
+				49971A2F15A2DA0200AF6496 /* AwayDayAppDelegate.m */,
+				49971A3115A2DA0200AF6496 /* AwayDayFirstViewController.h */,
+				49971A3215A2DA0200AF6496 /* AwayDayFirstViewController.m */,
+				49971A3415A2DA0200AF6496 /* first.png */,
+				49971A3615A2DA0200AF6496 /* first@2x.png */,
+				49971A3815A2DA0200AF6496 /* AwayDaySecondViewController.h */,
+				49971A3915A2DA0200AF6496 /* AwayDaySecondViewController.m */,
+				49971A3B15A2DA0200AF6496 /* second.png */,
+				49971A3D15A2DA0200AF6496 /* second@2x.png */,
+				49971A3F15A2DA0200AF6496 /* AwayDayFirstViewController.xib */,
+				49971A4215A2DA0200AF6496 /* AwayDaySecondViewController.xib */,
+				49971A2615A2DA0200AF6496 /* Supporting Files */,
+			);
+			path = MyAwayDay;
+			sourceTree = "<group>";
+		};
+		49971A2615A2DA0200AF6496 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49971A2715A2DA0200AF6496 /* MyAwayDay-Info.plist */,
+				49971A2815A2DA0200AF6496 /* InfoPlist.strings */,
+				49971A2B15A2DA0200AF6496 /* main.m */,
+				49971A2D15A2DA0200AF6496 /* MyAwayDay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49971A5115A2DA0200AF6496 /* MyAwayDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				49971A5715A2DA0200AF6496 /* MyAwayDayTests.h */,
+				49971A5815A2DA0200AF6496 /* MyAwayDayTests.m */,
+				49971A5215A2DA0200AF6496 /* Supporting Files */,
+			);
+			path = MyAwayDayTests;
+			sourceTree = "<group>";
+		};
+		49971A5215A2DA0200AF6496 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49971A5315A2DA0200AF6496 /* MyAwayDayTests-Info.plist */,
+				49971A5415A2DA0200AF6496 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49971A1A15A2DA0100AF6496 /* MyAwayDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49971A5C15A2DA0200AF6496 /* Build configuration list for PBXNativeTarget "MyAwayDay" */;
+			buildPhases = (
+				49971A1715A2DA0100AF6496 /* Sources */,
+				49971A1815A2DA0100AF6496 /* Frameworks */,
+				49971A1915A2DA0100AF6496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAwayDay;
+			productName = MyAwayDay;
+			productReference = 49971A1B15A2DA0100AF6496 /* MyAwayDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49971A4915A2DA0200AF6496 /* MyAwayDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49971A5F15A2DA0200AF6496 /* Build configuration list for PBXNativeTarget "MyAwayDayTests" */;
+			buildPhases = (
+				49971A4515A2DA0200AF6496 /* Sources */,
+				49971A4615A2DA0200AF6496 /* Frameworks */,
+				49971A4715A2DA0200AF6496 /* Resources */,
+				49971A4815A2DA0200AF6496 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49971A5015A2DA0200AF6496 /* PBXTargetDependency */,
+			);
+			name = MyAwayDayTests;
+			productName = MyAwayDayTests;
+			productReference = 49971A4A15A2DA0200AF6496 /* MyAwayDayTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49971A1215A2DA0100AF6496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AwayDay;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 49971A1515A2DA0100AF6496 /* Build configuration list for PBXProject "MyAwayDay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49971A1015A2DA0100AF6496;
+			productRefGroup = 49971A1C15A2DA0100AF6496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49971A1A15A2DA0100AF6496 /* MyAwayDay */,
+				49971A4915A2DA0200AF6496 /* MyAwayDayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49971A1915A2DA0100AF6496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49971A2A15A2DA0200AF6496 /* InfoPlist.strings in Resources */,
+				49971A3515A2DA0200AF6496 /* first.png in Resources */,
+				49971A3715A2DA0200AF6496 /* first@2x.png in Resources */,
+				49971A3C15A2DA0200AF6496 /* second.png in Resources */,
+				49971A3E15A2DA0200AF6496 /* second@2x.png in Resources */,
+				49971A4115A2DA0200AF6496 /* AwayDayFirstViewController.xib in Resources */,
+				49971A4415A2DA0200AF6496 /* AwayDaySecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49971A4715A2DA0200AF6496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49971A5615A2DA0200AF6496 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49971A4815A2DA0200AF6496 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49971A1715A2DA0100AF6496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49971A2C15A2DA0200AF6496 /* main.m in Sources */,
+				49971A3015A2DA0200AF6496 /* AwayDayAppDelegate.m in Sources */,
+				49971A3315A2DA0200AF6496 /* AwayDayFirstViewController.m in Sources */,
+				49971A3A15A2DA0200AF6496 /* AwayDaySecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49971A4515A2DA0200AF6496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49971A5915A2DA0200AF6496 /* MyAwayDayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49971A5015A2DA0200AF6496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49971A1A15A2DA0100AF6496 /* MyAwayDay */;
+			targetProxy = 49971A4F15A2DA0200AF6496 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49971A2815A2DA0200AF6496 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49971A2915A2DA0200AF6496 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49971A3F15A2DA0200AF6496 /* AwayDayFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49971A4015A2DA0200AF6496 /* en */,
+			);
+			name = AwayDayFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		49971A4215A2DA0200AF6496 /* AwayDaySecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49971A4315A2DA0200AF6496 /* en */,
+			);
+			name = AwayDaySecondViewController.xib;
+			sourceTree = "<group>";
+		};
+		49971A5415A2DA0200AF6496 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49971A5515A2DA0200AF6496 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49971A5A15A2DA0200AF6496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49971A5B15A2DA0200AF6496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49971A5D15A2DA0200AF6496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyAwayDay/MyAwayDay-Prefix.pch";
+				INFOPLIST_FILE = "MyAwayDay/MyAwayDay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49971A5E15A2DA0200AF6496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyAwayDay/MyAwayDay-Prefix.pch";
+				INFOPLIST_FILE = "MyAwayDay/MyAwayDay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		49971A6015A2DA0200AF6496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyAwayDay.app/MyAwayDay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyAwayDay/MyAwayDay-Prefix.pch";
+				INFOPLIST_FILE = "MyAwayDayTests/MyAwayDayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		49971A6115A2DA0200AF6496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyAwayDay.app/MyAwayDay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyAwayDay/MyAwayDay-Prefix.pch";
+				INFOPLIST_FILE = "MyAwayDayTests/MyAwayDayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49971A1515A2DA0100AF6496 /* Build configuration list for PBXProject "MyAwayDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49971A5A15A2DA0200AF6496 /* Debug */,
+				49971A5B15A2DA0200AF6496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49971A5C15A2DA0200AF6496 /* Build configuration list for PBXNativeTarget "MyAwayDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49971A5D15A2DA0200AF6496 /* Debug */,
+				49971A5E15A2DA0200AF6496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49971A5F15A2DA0200AF6496 /* Build configuration list for PBXNativeTarget "MyAwayDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49971A6015A2DA0200AF6496 /* Debug */,
+				49971A6115A2DA0200AF6496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49971A1215A2DA0100AF6496 /* Project object */;
+}
