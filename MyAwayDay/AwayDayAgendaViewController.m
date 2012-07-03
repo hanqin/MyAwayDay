@@ -6,13 +6,13 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "AwayDayFirstViewController.h"
+#import "AwayDayAgendaViewController.h"
 
-@interface AwayDayFirstViewController ()
+@interface AwayDayAgendaViewController ()
 
 @end
 
-@implementation AwayDayFirstViewController
+@implementation AwayDayAgendaViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

@@ -8,9 +8,9 @@
 
 #import "AwayDayAppDelegate.h"
 
-#import "AwayDayFirstViewController.h"
+#import "AwayDayAgendaViewController.h"
 
-#import "AwayDaySecondViewController.h"
+#import "AwayDayLocationsViewController.h"
 
 @implementation AwayDayAppDelegate
 
@@ -28,8 +28,8 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[[AwayDayFirstViewController alloc] initWithNibName:@"AwayDayFirstViewController" bundle:nil] autorelease];
-    UIViewController *viewController2 = [[[AwayDaySecondViewController alloc] initWithNibName:@"AwayDaySecondViewController" bundle:nil] autorelease];
+    UIViewController *viewController1 = [[[AwayDayAgendaViewController alloc] initWithNibName:@"AwayDayAgendaViewController" bundle:nil] autorelease];
+    UIViewController *viewController2 = [[[AwayDayLocationsViewController alloc] initWithNibName:@"AwayDayLocationsViewController" bundle:nil] autorelease];
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
     self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
     self.window.rootViewController = self.tabBarController;

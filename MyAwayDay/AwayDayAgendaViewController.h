@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AwayDayFirstViewController : UIViewController
+@interface AwayDayAgendaViewController : UIViewController
 
 @end

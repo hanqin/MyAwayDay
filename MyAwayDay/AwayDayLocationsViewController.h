@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AwayDaySecondViewController : UIViewController
+@interface AwayDayLocationsViewController : UIViewController
 
 @end
