@@ -13,12 +13,13 @@
 @end
 
 @implementation AwayDayAgendaViewController
+@synthesize webView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"First", @"First");
+        self.title = NSLocalizedString(@"Agenda", @"Agenda");
         self.tabBarItem.image = [UIImage imageNamed:@"first"];
     }
     return self;
@@ -26,8 +27,13 @@
 							
 - (void)viewDidLoad
 {
+    NSString* urlString = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"assets/agenda"];
+
+    
+    NSURL *url = [NSURL fileURLWithPath:urlString];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [webView loadRequest:request];
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)viewDidUnload

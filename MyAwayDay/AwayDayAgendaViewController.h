@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface AwayDayAgendaViewController : UIViewController
+{
+    UIWebView *webView;
+}
 
+@property (nonatomic, retain) IBOutlet UIWebView *webView;
 @end
