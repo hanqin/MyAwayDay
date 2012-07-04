@@ -30,6 +30,7 @@
 {
     [mapView setScrollEnabled:YES];
     [mapView setZoomEnabled:YES];
+    [mapView setMapType:MKMapTypeHybrid];
     
 
     CLLocationCoordinate2D airport = { 30.581395, 103.967956 };
