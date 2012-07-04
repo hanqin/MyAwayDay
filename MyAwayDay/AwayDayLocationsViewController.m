@@ -55,9 +55,9 @@
     points[i++] = airport;    
     
     CLLocationCoordinate2D coordinate;
-    coordinate.latitude = 30.62;
-    coordinate.longitude = 104.0303;
-    mapView.region = MKCoordinateRegionMakeWithDistance(coordinate, 150000, 200000);
+    coordinate.latitude = 30.9;
+    coordinate.longitude = 103.9003;
+    mapView.region = MKCoordinateRegionMakeWithDistance(coordinate, 80000, 80000);
     
     for (NSInteger index = 0; index < len; index++) {
         MapAnnotation* annotation = [[MapAnnotation alloc] initWithCoordinate:points[index]];

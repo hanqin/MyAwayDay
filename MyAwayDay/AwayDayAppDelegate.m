@@ -14,6 +14,8 @@
 
 #import "PhotoViewController.h"
 
+#import "AwayDayHotelViewController.h"
+
 @implementation AwayDayAppDelegate
 
 @synthesize window = _window;
@@ -32,7 +34,8 @@
     // Override point for customization after application launch.
     UIViewController *viewController1 = [[[AwayDayAgendaViewController alloc] initWithNibName:@"AwayDayAgendaViewController" bundle:nil] autorelease];
     UIViewController *viewController2 = [[[AwayDayLocationsViewController alloc] initWithNibName:@"AwayDayLocationsViewController" bundle:nil] autorelease];
-    UIViewController *viewController3 = [[[PhotoViewController alloc] init] autorelease];    
+    UIViewController *viewController3 = [[[AwayDayHotelViewController alloc] init] autorelease];
+
     
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
     self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, viewController3, nil];

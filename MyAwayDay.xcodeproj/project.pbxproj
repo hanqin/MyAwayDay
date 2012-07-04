@@ -19,6 +19,7 @@
 		4921A4DE15A2DEAF0006F75F /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 4921A4DD15A2DEAF0006F75F /* assets */; };
 		4921A4E115A300A90006F75F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4921A4DF15A300A90006F75F /* Icon.png */; };
 		4921A4E215A300A90006F75F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4921A4E015A300A90006F75F /* Icon@2x.png */; };
+		494F54F015A4052F0028B499 /* AwayDayHotelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494F54EF15A4052F0028B499 /* AwayDayHotelViewController.m */; };
 		49971A2015A2DA0200AF6496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A1F15A2DA0200AF6496 /* UIKit.framework */; };
 		49971A2215A2DA0200AF6496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A2115A2DA0200AF6496 /* Foundation.framework */; };
 		49971A2415A2DA0200AF6496 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A2315A2DA0200AF6496 /* CoreGraphics.framework */; };
@@ -215,6 +216,8 @@
 		4921A4DD15A2DEAF0006F75F /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		4921A4DF15A300A90006F75F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		4921A4E015A300A90006F75F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		494F54EE15A4052F0028B499 /* AwayDayHotelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwayDayHotelViewController.h; sourceTree = "<group>"; };
+		494F54EF15A4052F0028B499 /* AwayDayHotelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwayDayHotelViewController.m; sourceTree = "<group>"; };
 		49971A1B15A2DA0100AF6496 /* MyAwayDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAwayDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49971A1F15A2DA0200AF6496 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		49971A2115A2DA0200AF6496 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -477,6 +480,8 @@
 				49A7E1D115A323DC00B69197 /* PhotoSet.m */,
 				49A7E1E315A325AA00B69197 /* PhotoViewController.h */,
 				49A7E1E415A325AA00B69197 /* PhotoViewController.m */,
+				494F54EE15A4052F0028B499 /* AwayDayHotelViewController.h */,
+				494F54EF15A4052F0028B499 /* AwayDayHotelViewController.m */,
 			);
 			name = Hotel;
 			sourceTree = "<group>";
@@ -743,6 +748,7 @@
 				49A7E1CF15A322F600B69197 /* Photo.m in Sources */,
 				49A7E1D215A323DC00B69197 /* PhotoSet.m in Sources */,
 				49A7E1E515A325AA00B69197 /* PhotoViewController.m in Sources */,
+				494F54F015A4052F0028B499 /* AwayDayHotelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
