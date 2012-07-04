@@ -405,8 +405,6 @@
 			children = (
 				320B6C86F11D9990244A9730 /* Three20.bundle */,
 				4921A4DD15A2DEAF0006F75F /* assets */,
-				49971A3F15A2DA0200AF6496 /* AwayDayAgendaViewController.xib */,
-				49971A4215A2DA0200AF6496 /* AwayDayLocationsViewController.xib */,
 				49971A6215A2DBE000AF6496 /* Icons */,
 				49971A2715A2DA0200AF6496 /* MyAwayDay-Info.plist */,
 				49971A2815A2DA0200AF6496 /* InfoPlist.strings */,
@@ -451,6 +449,7 @@
 		49A7E1CA15A321E500B69197 /* Locations */ = {
 			isa = PBXGroup;
 			children = (
+				49971A4215A2DA0200AF6496 /* AwayDayLocationsViewController.xib */,
 				49971A3815A2DA0200AF6496 /* AwayDayLocationsViewController.h */,
 				49971A3915A2DA0200AF6496 /* AwayDayLocationsViewController.m */,
 				49A7E10F15A3136000B69197 /* MapAnnotation.h */,
@@ -462,6 +461,7 @@
 		49A7E1CB15A321F400B69197 /* Agenda */ = {
 			isa = PBXGroup;
 			children = (
+				49971A3F15A2DA0200AF6496 /* AwayDayAgendaViewController.xib */,
 				49971A3115A2DA0200AF6496 /* AwayDayAgendaViewController.h */,
 				49971A3215A2DA0200AF6496 /* AwayDayAgendaViewController.m */,
 			);
