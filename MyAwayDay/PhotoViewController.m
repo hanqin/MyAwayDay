@@ -16,6 +16,11 @@
     self.photoSource = [PhotoSet samplePhotoSet];
 }
 
+- (void)showBars:(BOOL)show animated:(BOOL)animated
+{
+    [super showBars:NO animated:NO];
+}
+
 - (void) dealloc {
     self.photoSet = nil;    
     [super dealloc];

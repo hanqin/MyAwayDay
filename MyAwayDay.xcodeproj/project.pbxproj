@@ -366,9 +366,9 @@
 		49971A1015A2DA0100AF6496 = {
 			isa = PBXGroup;
 			children = (
+				49971A1E15A2DA0100AF6496 /* Frameworks */,
 				49971A2515A2DA0200AF6496 /* MyAwayDay */,
 				49971A5115A2DA0200AF6496 /* MyAwayDayTests */,
-				49971A1E15A2DA0100AF6496 /* Frameworks */,
 				49971A1C15A2DA0100AF6496 /* Products */,
 			);
 			sourceTree = "<group>";
