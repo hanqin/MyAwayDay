@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/ADBannerView.h>
 
-@interface AwayDayAgendaViewController : UIViewController
+@interface AwayDayAgendaViewController : UIViewController<ADBannerViewDelegate>
 {
     UIWebView *webView;
+    id adBannerView;
+    BOOL isAdBannerViewVisible;
 }
 
 @property (nonatomic, retain) IBOutlet UIWebView *webView;
+@property (nonatomic, retain) id adBannerView;
+@property (nonatomic) BOOL isAdBannerViewVisible;
 @end

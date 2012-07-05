@@ -26,6 +26,7 @@
 		494F558115A5A79E0028B499 /* Android@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494F557E15A5A79D0028B499 /* Android@2x.png */; };
 		494F558215A5A79E0028B499 /* Apple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494F557F15A5A79D0028B499 /* Apple@2x.png */; };
 		494F558315A5A79E0028B499 /* Shock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494F558015A5A79E0028B499 /* Shock@2x.png */; };
+		494F558D15A5E2D70028B499 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494F558C15A5E2D70028B499 /* iAd.framework */; };
 		49971A2015A2DA0200AF6496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A1F15A2DA0200AF6496 /* UIKit.framework */; };
 		49971A2215A2DA0200AF6496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A2115A2DA0200AF6496 /* Foundation.framework */; };
 		49971A2415A2DA0200AF6496 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A2315A2DA0200AF6496 /* CoreGraphics.framework */; };
@@ -230,6 +231,7 @@
 		494F557E15A5A79D0028B499 /* Android@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Android@2x.png"; sourceTree = "<group>"; };
 		494F557F15A5A79D0028B499 /* Apple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple@2x.png"; sourceTree = "<group>"; };
 		494F558015A5A79E0028B499 /* Shock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shock@2x.png"; sourceTree = "<group>"; };
+		494F558C15A5E2D70028B499 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		49971A1B15A2DA0100AF6496 /* MyAwayDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAwayDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49971A1F15A2DA0200AF6496 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		49971A2115A2DA0200AF6496 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -272,6 +274,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494F558D15A5E2D70028B499 /* iAd.framework in Frameworks */,
 				3201088596B4756681693705 /* libThree20UICommon.a in Frameworks */,
 				320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */,
 				320A737074758E53BA54BE95 /* libThree20UINavigator.a in Frameworks */,
@@ -385,6 +388,7 @@
 		49971A1E15A2DA0100AF6496 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				494F558C15A5E2D70028B499 /* iAd.framework */,
 				3201088596B4756681693700 /* Three20UICommon.xcodeproj */,
 				320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */,
 				320A737074758E53BA54BE90 /* Three20UINavigator.xcodeproj */,
