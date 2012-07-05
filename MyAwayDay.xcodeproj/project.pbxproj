@@ -20,6 +20,12 @@
 		4921A4E115A300A90006F75F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4921A4DF15A300A90006F75F /* Icon.png */; };
 		4921A4E215A300A90006F75F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4921A4E015A300A90006F75F /* Icon@2x.png */; };
 		494F54F015A4052F0028B499 /* AwayDayHotelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494F54EF15A4052F0028B499 /* AwayDayHotelViewController.m */; };
+		494F557B15A5A6E50028B499 /* Android.png in Resources */ = {isa = PBXBuildFile; fileRef = 494F557815A5A6E40028B499 /* Android.png */; };
+		494F557C15A5A6E50028B499 /* Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 494F557915A5A6E40028B499 /* Apple.png */; };
+		494F557D15A5A6E50028B499 /* Shock.png in Resources */ = {isa = PBXBuildFile; fileRef = 494F557A15A5A6E40028B499 /* Shock.png */; };
+		494F558115A5A79E0028B499 /* Android@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494F557E15A5A79D0028B499 /* Android@2x.png */; };
+		494F558215A5A79E0028B499 /* Apple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494F557F15A5A79D0028B499 /* Apple@2x.png */; };
+		494F558315A5A79E0028B499 /* Shock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494F558015A5A79E0028B499 /* Shock@2x.png */; };
 		49971A2015A2DA0200AF6496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A1F15A2DA0200AF6496 /* UIKit.framework */; };
 		49971A2215A2DA0200AF6496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A2115A2DA0200AF6496 /* Foundation.framework */; };
 		49971A2415A2DA0200AF6496 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A2315A2DA0200AF6496 /* CoreGraphics.framework */; };
@@ -218,6 +224,12 @@
 		4921A4E015A300A90006F75F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		494F54EE15A4052F0028B499 /* AwayDayHotelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwayDayHotelViewController.h; sourceTree = "<group>"; };
 		494F54EF15A4052F0028B499 /* AwayDayHotelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwayDayHotelViewController.m; sourceTree = "<group>"; };
+		494F557815A5A6E40028B499 /* Android.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Android.png; sourceTree = "<group>"; };
+		494F557915A5A6E40028B499 /* Apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple.png; sourceTree = "<group>"; };
+		494F557A15A5A6E40028B499 /* Shock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shock.png; sourceTree = "<group>"; };
+		494F557E15A5A79D0028B499 /* Android@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Android@2x.png"; sourceTree = "<group>"; };
+		494F557F15A5A79D0028B499 /* Apple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple@2x.png"; sourceTree = "<group>"; };
+		494F558015A5A79E0028B499 /* Shock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shock@2x.png"; sourceTree = "<group>"; };
 		49971A1B15A2DA0100AF6496 /* MyAwayDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAwayDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49971A1F15A2DA0200AF6496 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		49971A2115A2DA0200AF6496 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -439,6 +451,12 @@
 		49971A6215A2DBE000AF6496 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				494F557E15A5A79D0028B499 /* Android@2x.png */,
+				494F557F15A5A79D0028B499 /* Apple@2x.png */,
+				494F558015A5A79E0028B499 /* Shock@2x.png */,
+				494F557815A5A6E40028B499 /* Android.png */,
+				494F557915A5A6E40028B499 /* Apple.png */,
+				494F557A15A5A6E40028B499 /* Shock.png */,
 				4921A4DF15A300A90006F75F /* Icon.png */,
 				4921A4E015A300A90006F75F /* Icon@2x.png */,
 				49971A3415A2DA0200AF6496 /* first.png */,
@@ -706,6 +724,12 @@
 				4921A4DE15A2DEAF0006F75F /* assets in Resources */,
 				4921A4E115A300A90006F75F /* Icon.png in Resources */,
 				4921A4E215A300A90006F75F /* Icon@2x.png in Resources */,
+				494F557B15A5A6E50028B499 /* Android.png in Resources */,
+				494F557C15A5A6E50028B499 /* Apple.png in Resources */,
+				494F557D15A5A6E50028B499 /* Shock.png in Resources */,
+				494F558115A5A79E0028B499 /* Android@2x.png in Resources */,
+				494F558215A5A79E0028B499 /* Apple@2x.png in Resources */,
+				494F558315A5A79E0028B499 /* Shock@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

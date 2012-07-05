@@ -8,8 +8,6 @@
 {
     self = [super init];
     if (self) {
-        self.title = NSLocalizedString(@"Photos", @"Photos");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
     }
     return self;
 }

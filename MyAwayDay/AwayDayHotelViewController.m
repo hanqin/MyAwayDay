@@ -21,7 +21,7 @@
     self = [super init];
     if (self) {
         self.title = NSLocalizedString(@"Hotel", @"Hotel");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        self.tabBarItem.image = [UIImage imageNamed:@"Apple"];
     }
     return self;
 }
