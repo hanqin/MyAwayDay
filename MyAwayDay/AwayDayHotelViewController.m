@@ -1,11 +1,3 @@
-//
-//  AwayDayHotelViewControllerViewController.m
-//  MyAwayDay
-//
-//  Created by 汉 秦 on 7/4/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
-
 #import "AwayDayHotelViewController.h"
 
 @interface AwayDayHotelViewController ()

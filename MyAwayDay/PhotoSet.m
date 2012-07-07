@@ -57,21 +57,16 @@ static PhotoSet *samplePhotoSet = nil;
 + (PhotoSet *) samplePhotoSet {
     @synchronized(self) {
         if (samplePhotoSet == nil) {
-            Photo *mathNinja = [[[Photo alloc] initWithCaption:@"Meeting Room" 
-                                                      urlLarge:@"bundle://assets/hotel/images/hotel_0.jpg"  
-                                                      urlSmall:@"bundle://assets/hotel/thumbs/hotel_0.jpg" 
-                                                      urlThumb:@"bundle://assets/hotel/thumbs/hotel_0.jpg" 
-                                                          size:CGSizeMake(1024, 768)] autorelease];
-            Photo *instantPoetry = [[[Photo alloc] initWithCaption:@"Dinning Room" 
-                                                          urlLarge:@"bundle://assets/hotel/images/hotel_1.jpg"  
-                                                          urlSmall:@"bundle://assets/hotel/thumbs/hotel_1.jpg" 
-                                                          urlThumb:@"bundle://assets/hotel/thumbs/hotel_1.jpg" 
-                                                              size:CGSizeMake(1024, 748)] autorelease];
-            Photo *levelMeUp = [[[Photo alloc] initWithCaption:@"Vote Room" 
-                                                      urlLarge:@"bundle://assets/hotel/images/hotel_2.jpg"  
-                                                      urlSmall:@"bundle://assets/hotel/thumbs/hotel_2.jpg" 
-                                                      urlThumb:@"bundle://assets/hotel/thumbs/hotel_2.jpg" 
-                                                          size:CGSizeMake(1024, 768)] autorelease];
+            Photo *mathNinja = [[[Photo alloc] initWithImage:@"hotel_0.jpg" 
+                                                         caption:@"Meeting Room" 
+                                                         size:CGSizeMake(1024, 748)] autorelease];
+            
+            Photo *instantPoetry = [[[Photo alloc] initWithImage:@"hotel_1.jpg" 
+                                                             caption:@"Dinning Room" 
+                                                                size:CGSizeMake(1024, 748)] autorelease];
+            Photo *levelMeUp = [[[Photo alloc] initWithImage:@"hotel_2.jpg" 
+                                                       caption:@"Vote Room" 
+                                                          size:CGSizeMake(1024, 748)] autorelease];
             NSArray *photos = [NSArray arrayWithObjects:mathNinja, instantPoetry, levelMeUp, nil];
             samplePhotoSet = [[self alloc] initWithTitle:@"My Apps" photos:photos];
         }

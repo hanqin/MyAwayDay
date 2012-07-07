@@ -1,50 +1,38 @@
 #import "Photo.h"
 
-@implementation Photo
-@synthesize caption = _caption;
-@synthesize urlLarge = _urlLarge;
-@synthesize urlSmall = _urlSmall;
-@synthesize urlThumb = _urlThumb;
-@synthesize photoSource = _photoSource;
-@synthesize size = _size;
-@synthesize index = _index;
+@implementation Photo 
 
-- (id)initWithCaption:(NSString *)caption urlLarge:(NSString *)urlLarge urlSmall:(NSString *)urlSmall urlThumb:(NSString *)urlThumb size:(CGSize)size {
-    if ((self = [super init])) {
-        self.caption = caption;
-        self.urlLarge = urlLarge;
-        self.urlSmall = urlSmall;
-        self.urlThumb = urlThumb;
-        self.size = size;
-        self.index = NSIntegerMax;
+@synthesize caption;
+@synthesize imageName;
+@synthesize photoSource;
+@synthesize index;
+@synthesize size;
+
+- (void) dealloc {
+    self.caption = nil;
+    self.imageName = nil;
+    [super dealloc];
+}
+
+- (id)initWithImage:(NSString *)name caption:(NSString *)imageCaption size:(CGSize)imageSize
+{
+    self = [super init];
+    if (self) 
+    {
+        self.imageName = name;
+        self.caption = imageCaption;      
+        self.size = imageSize;
         self.photoSource = nil;
+        self.index = NSIntegerMax;
     }
     return self;
 }
 
-- (void) dealloc {
-    self.caption = nil;
-    self.urlLarge = nil;
-    self.urlSmall = nil;
-    self.urlThumb = nil;    
-    [super dealloc];
-}
-
-#pragma mark TTPhoto
-
-- (NSString*)URLForVersion:(TTPhotoVersion)version {
-    switch (version) {
-        case TTPhotoVersionLarge:
-            return _urlLarge;
-        case TTPhotoVersionMedium:
-            return _urlLarge;
-        case TTPhotoVersionSmall:
-            return _urlSmall;
-        case TTPhotoVersionThumbnail:
-            return _urlThumb;
-        default:
-            return nil;
-    }
+- (NSString *)URLForVersion:(TTPhotoVersion)version
+{
+    NSString *imageFullPath = [NSString stringWithFormat:@"bundle://assets/hotel/images/%@", imageName];
+    
+    return imageFullPath;
 }
 
 @end

@@ -27,6 +27,7 @@
 		494F558215A5A79E0028B499 /* Apple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494F557F15A5A79D0028B499 /* Apple@2x.png */; };
 		494F558315A5A79E0028B499 /* Shock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494F558015A5A79E0028B499 /* Shock@2x.png */; };
 		494F558D15A5E2D70028B499 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494F558C15A5E2D70028B499 /* iAd.framework */; };
+		494F559015A7EEDC0028B499 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 494F558F15A7EEDC0028B499 /* Photo.m */; };
 		49971A2015A2DA0200AF6496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A1F15A2DA0200AF6496 /* UIKit.framework */; };
 		49971A2215A2DA0200AF6496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A2115A2DA0200AF6496 /* Foundation.framework */; };
 		49971A2415A2DA0200AF6496 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971A2315A2DA0200AF6496 /* CoreGraphics.framework */; };
@@ -48,7 +49,6 @@
 		49971A5915A2DA0200AF6496 /* MyAwayDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49971A5815A2DA0200AF6496 /* MyAwayDayTests.m */; };
 		49A7E10D15A30DC500B69197 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A7E10C15A30DC500B69197 /* MapKit.framework */; };
 		49A7E11115A3136000B69197 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A7E11015A3136000B69197 /* MapAnnotation.m */; };
-		49A7E1CF15A322F600B69197 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A7E1CE15A322F600B69197 /* Photo.m */; };
 		49A7E1D215A323DC00B69197 /* PhotoSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A7E1D115A323DC00B69197 /* PhotoSet.m */; };
 		49A7E1E515A325AA00B69197 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A7E1E415A325AA00B69197 /* PhotoViewController.m */; };
 /* End PBXBuildFile section */
@@ -232,6 +232,8 @@
 		494F557F15A5A79D0028B499 /* Apple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple@2x.png"; sourceTree = "<group>"; };
 		494F558015A5A79E0028B499 /* Shock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shock@2x.png"; sourceTree = "<group>"; };
 		494F558C15A5E2D70028B499 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		494F558E15A7EEDB0028B499 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		494F558F15A7EEDC0028B499 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 		49971A1B15A2DA0100AF6496 /* MyAwayDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAwayDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49971A1F15A2DA0200AF6496 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		49971A2115A2DA0200AF6496 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -261,8 +263,6 @@
 		49A7E10C15A30DC500B69197 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		49A7E10F15A3136000B69197 /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
 		49A7E11015A3136000B69197 /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
-		49A7E1CD15A322F600B69197 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
-		49A7E1CE15A322F600B69197 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 		49A7E1D015A323DC00B69197 /* PhotoSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSet.h; sourceTree = "<group>"; };
 		49A7E1D115A323DC00B69197 /* PhotoSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSet.m; sourceTree = "<group>"; };
 		49A7E1E315A325AA00B69197 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
@@ -496,8 +496,8 @@
 		49A7E1CC15A322A300B69197 /* Hotel */ = {
 			isa = PBXGroup;
 			children = (
-				49A7E1CD15A322F600B69197 /* Photo.h */,
-				49A7E1CE15A322F600B69197 /* Photo.m */,
+				494F558E15A7EEDB0028B499 /* Photo.h */,
+				494F558F15A7EEDC0028B499 /* Photo.m */,
 				49A7E1D015A323DC00B69197 /* PhotoSet.h */,
 				49A7E1D115A323DC00B69197 /* PhotoSet.m */,
 				49A7E1E315A325AA00B69197 /* PhotoViewController.h */,
@@ -773,10 +773,10 @@
 				49971A3315A2DA0200AF6496 /* AwayDayAgendaViewController.m in Sources */,
 				49971A3A15A2DA0200AF6496 /* AwayDayLocationsViewController.m in Sources */,
 				49A7E11115A3136000B69197 /* MapAnnotation.m in Sources */,
-				49A7E1CF15A322F600B69197 /* Photo.m in Sources */,
 				49A7E1D215A323DC00B69197 /* PhotoSet.m in Sources */,
 				49A7E1E515A325AA00B69197 /* PhotoViewController.m in Sources */,
 				494F54F015A4052F0028B499 /* AwayDayHotelViewController.m in Sources */,
+				494F559015A7EEDC0028B499 /* Photo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
