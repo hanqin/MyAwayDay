@@ -22,7 +22,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = NSLocalizedString(@"Agenda", @"Agenda");
-        self.tabBarItem.image = [UIImage imageNamed:@"Android"];
+        self.tabBarItem.image = [UIImage imageNamed:@"paper_plane"];
     }
     return self;
 }

@@ -21,7 +21,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = NSLocalizedString(@"Locations", @"Locations");
-        self.tabBarItem.image = [UIImage imageNamed:@"Shock"];
+        self.tabBarItem.image = [UIImage imageNamed:@"flag"];
     }
     return self;
 }
